@@ -8,15 +8,21 @@ This is a Rails API that can be useful for a college/school and has the followin
 
 Usage:
 * Fork the project from https://github.com/Elena-Weber/college-rails
-* Initialize the database - run  in the console: 
+* Initialize the database - run  in the console (in VS Code, for example): 
 $ rails db:migrate
-(please note that yo need to have Rails installed on your system)
+(please note that you need to have Rails installed on your computer)
 * Seed the database with fake data - run  in the console: 
 $ rails db:seed
 * Install the gems - run in the console: 
 $ bundle install
-* To start the the server - run in the console:
+* Start the Rails console - run in the console:
+$ rails c
+(To stop the Rails console, run in the console:
+$ control+D)
+* To start the server, run in the console:
 $ rails s
+(* To stop the server, run in the console:
+$ control+C)
 * Head over to http://localhost:3000/ in your browser (Chrome is recommended). You should see the main webpage of the API project. If you do, congrats! - all is working fine.
 
 Contributing:
